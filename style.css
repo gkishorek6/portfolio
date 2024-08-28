@@ -1,0 +1,220 @@
+li{
+    display: inline;
+}
+#xyz{
+    position: absolute;
+    z-index: -2;
+    height: 600px;
+    width: 1340px;
+    position: fixed;
+}
+.vic{
+z-index: -1;
+position: absolute;
+width: 2000px;
+height: 2000px;
+}
+ul{
+    position: relative;
+    left: 1000px;
+    top: -50px;
+    font-size: 20px;
+    
+}
+b{
+ color: darkred;
+}
+
+#kkk{
+    width: 230px;
+}
+.a1{
+    height: 250px;
+    width: 500px;
+    position: absolute;
+    left: 120px;
+    font-size: 25px;
+}
+.aa{
+    border-bottom: 3px solid black;
+    animation: fadeInRight 2s ease;
+}
+.a3{
+    position: relative;
+    top: 350px;
+    left: 110px;
+    background-color: white;
+    color: black;
+    border: 2px solid darkred;
+    border-radius: 9px;
+    width: 110px;
+    height: 40px;
+}
+.a4{
+    position: relative;
+    top: 350px;
+    left: 150px;
+    background-color: white;
+    color: black;
+    border: 2px solid darkred;
+    border-radius: 9px;
+    width: 110px;
+    height: 40px;
+}
+.a5{
+    height: 370px;
+    width: 350px;
+    border: 3px solid black;
+    border-radius: 15px;
+    position: relative;
+    left: 850px;
+    top: -50px;
+    /* animation: fadeInRight 2s ease; */
+    }
+img{
+    height: 370px;
+    width: 400px;
+    }
+.a6{
+/* 
+    position: relative;
+    left: 650px;
+    font-size: 25px ; */
+    
+    }
+.p{
+
+
+
+}
+.bb{
+display: flex;
+padding: 100px;
+    border-bottom: 3px solid black;
+  align-items: center;
+  text-align: justify;  
+  animation: fadeInUp 2s ease;
+}
+.a7{
+    position: relative;
+    left: 98px;
+    top: 230px;
+}
+.a7 a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    }
+.a7 i{
+    font-size: 2cm;
+    color: black;
+    opacity: 0.9;
+}
+.a7 a:hover{
+    background-color: wheat;
+    transition: 0.5s;
+}
+.a7 a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+#fb{
+    font-size: xx-large;
+    padding: 15px;
+    }
+.a8{
+position: relative;
+left: 100px;
+
+}
+.a9{
+    height: 180px;
+    width: 455px;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 250px;
+    
+    }
+.a10{
+    height: 150px;
+    width: 455px;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 550px;
+    
+    }
+.a11{
+    height: 150px;
+    width: 455px;
+    font-size: larger;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    left: 250px;
+    
+}
+.cc{
+   
+    border-bottom: 3px solid black;
+    animation: fadeInUp 2s ease;
+
+}
+.dd{
+  
+    animation: fadeInUp 2s ease;
+}
+.a12{
+position: relative;
+left: 100px;
+}
+.a13{
+    position: relative;
+    left: 200px;
+    font-size: x-large;
+    border-bottom: 5px solis blue;
+}
+.ee{
+}
+.footercontent{
+    width:100%;
+
+    background-color: #000;
+    padding:20px;
+    text-align: center;
+    color: white;
+}
+
+.desiner{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@keyframes fadeInUp {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

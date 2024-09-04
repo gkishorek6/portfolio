@@ -2,17 +2,21 @@ li{
     display: inline;
 }
 #xyz{
-    position: absolute;
+    
     z-index: -2;
     height: 600px;
     width: 1340px;
     position: fixed;
 }
+/* .whole{
+    
+z-index: -1;
+position: absolute;
+} */
 .vic{
 z-index: -1;
 position: absolute;
-width: 2000px;
-height: 2000px;
+
 }
 ul{
     position: relative;
@@ -69,6 +73,7 @@ b{
     position: relative;
     left: 850px;
     top: -50px;
+    backdrop-filter: blur(20px);
     /* animation: fadeInRight 2s ease; */
     }
 img{
@@ -90,10 +95,11 @@ img{
 .bb{
 display: flex;
 padding: 100px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(27, 18, 18);
   align-items: center;
   text-align: justify;  
   animation: fadeInUp 2s ease;
+  /* backdrop-filter: blur(20px); */
 }
 .a7{
     position: relative;
@@ -135,9 +141,10 @@ left: 100px;
     width: 455px;
     font-size: larger;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 50px 5px 50px 5px;
     position: relative;
     left: 250px;
+    backdrop-filter: blur(20px);
     
     }
 .a10{
@@ -145,20 +152,20 @@ left: 100px;
     width: 455px;
     font-size: larger;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 50px 5px 50px 5px;
     position: relative;
     left: 550px;
-    
+    backdrop-filter: blur(20px);
     }
 .a11{
     height: 150px;
     width: 455px;
     font-size: larger;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 50px 5px 50px 5px;
     position: relative;
     left: 250px;
-    
+    backdrop-filter: blur(20px);
 }
 .cc{
    
